@@ -37,7 +37,8 @@ DEBUG = False
 ALLOWED_HOSTS = ["videoapp-rtc.herokuapp.com",
                  "127.0.0.1", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ['http://videoapp-rtc.herokuapp.com','https://videoapp-rtc.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://videoapp-rtc.herokuapp.com',
+                        'https://videoapp-rtc.herokuapp.com', 'wss://django-chat-app.herokuapp.com/wss/chat']
 
 # Application definition
 

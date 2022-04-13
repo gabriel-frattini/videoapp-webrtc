@@ -27,7 +27,7 @@ const localVideo = document.querySelector('#user-1');
 
 // var endPoint = 'wss://'+window.location.host+'/ws/chat'
 
-var endPoint = 'ws://django-chat-app.herokuapp.com/ws/chat'
+var endPoint = 'wss://django-chat-app.herokuapp.com/wss/chat'
 
 
 var btnJoin = document.querySelector('#btn-join');
