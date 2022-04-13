@@ -6,3 +6,4 @@ channels-redis
 Pillow
 python-dotenv
 gunicorn
+daphne
