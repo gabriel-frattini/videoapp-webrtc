@@ -34,8 +34,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 
-ALLOWED_HOSTS = ["videoapp-rtc.herokuapp.com",
-                 "127.0.0.1", "localhost", '*', 'wss://django-chat-app.herokuapp.com/wss/chat']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition

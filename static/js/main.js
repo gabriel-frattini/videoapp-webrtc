@@ -26,8 +26,10 @@ const localVideo = document.querySelector('#user-1');
 // ul of messages
 
 // var endPoint = 'wss://'+window.location.host+'/ws/chat'
-
 var endPoint = 'wss://videoapp-rtc.herokuapp.com/wss/chat'
+console.log('endPoint',endPoint)
+console.log('window host','wss://'+window.location.host+'/ws/chat')
+
 
 
 var btnJoin = document.querySelector('#btn-join');
