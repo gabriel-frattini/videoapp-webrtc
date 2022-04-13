@@ -18,7 +18,7 @@ import api.routing
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proj.settings')
 django.setup()
 application = ProtocolTypeRouter({
-  "https": get_asgi_application(),
+  "http": get_asgi_application(),
   "websocket": AuthMiddlewareStack(
         URLRouter(
             api.routing.websocket_urlpatterns
