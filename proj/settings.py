@@ -37,7 +37,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["videoapp-rtc.herokuapp.com",
                  "127.0.0.1", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ['videoapp-rtc.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['http://videoapp-rtc.herokuapp.com','https://videoapp-rtc.herokuapp.com']
 
 # Application definition
 
