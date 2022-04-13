@@ -25,7 +25,7 @@ const localVideo = document.querySelector('#user-1');
 
 // ul of messages
 
-var endPoint = 'ws://'+window.location.host+'/ws/chat'
+var endPoint = 'ws://'+window.location.host+'/wss/chat'
 
 var btnJoin = document.querySelector('#btn-join');
 
