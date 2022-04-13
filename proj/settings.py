@@ -34,10 +34,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["https://videoapp-rtc.herokuapp.com",
+ALLOWED_HOSTS = ["videoapp-rtc.herokuapp.com",
                  "127.0.0.1", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ['https://cv-match.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['videoapp-rtc.herokuapp.com']
 
 # Application definition
 
