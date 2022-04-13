@@ -1,0 +1,8 @@
+Django
+django-cors-headers
+djangorestframework
+channels
+channels-redis
+Pillow
+python-dotenv
+gunicorn
